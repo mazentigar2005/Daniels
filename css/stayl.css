@@ -1,0 +1,264 @@
+
+html ,body{
+  scroll-behavior:smooth ;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    font-family: "Montserrat", serif;
+}
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.548) ,rgba(0, 0, 0, 0.548)) , url("../imgs/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .my_color{
+        color: white;
+    }
+  a{
+    color: white;
+   margin-top: 1rem;
+  }
+  h5{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+}
+#about{
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #FFFFFF;
+  .my_p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+font-weight: 400;
+color: #999999;
+  }
+  p{
+    color: #748182;
+  }
+  h6{
+    font-size:  13px;
+  }
+}
+.text_color{
+  color:#343434 ;
+}
+.bar{
+  height: 1.5rem;
+}
+.bg-black_my_bar{
+  background-color: #1C1C1C;
+}
+#Services{
+  h3{
+    font-weight: 900;
+    font-size: 40px;
+    color: #343434;
+  }
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #F7F7F7;
+  .child{
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    &:hover span{
+      background-color:#1C1C1C ;
+      color: white;
+    }
+  }
+  span{
+    transition: all 0.3s linear;
+    border: 1px solid transparent ;
+    background: #f4f4f4; 
+    border-radius: 50%; 
+    width: 70px;
+    height: 70px;
+position: relative;
+    margin: auto;
+    i{
+      width: auto;
+      margin: auto;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+    
+      font-size: 30px;
+      transform: translateX(-50%);
+
+    }
+  }
+}
+#Portfolio{
+padding-top: 5rem;
+padding-bottom: 5rem;
+h3{
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+ul span{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins"sans-serif;
+
+}
+
+  background-color:#FFFFFF ;
+i{
+  font-size: 10px;
+}
+
+  .my_card{
+    position: relative;
+
+.my_posetion{
+  h6{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  position: absolute;
+  background-color: #FDFDFD;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  transition: all 1s;
+  
+  transform: translateY(5%);
+  opacity: 0;
+  &:hover{
+    /* top: 10px; */
+    transform: translateY(0.5%);
+    opacity: 1;
+}
+
+    }
+  }
+  ul{
+    li button {
+      position: relative;
+      background-color:transparent;
+      color:#222222 ;
+      font-family: "Poppins" sans-serif;
+      &::before {
+        content: "";
+        background-color: #222222;
+        width:0%;
+        height: 2px;
+        top: 80%;
+        left: 0;
+        transition:width 0.2s linear;
+        position: absolute;
+
+      }
+      &:hover::before {
+        width: 60%;
+        left: 20%;
+      }
+    }
+ 
+  }
+}
+#Testimonials{
+  background-color:#F7F7F7 ;
+  span{
+    font-size: 14px;
+  }
+  button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791;
+  }
+}
+#sectioc5{
+  span{
+    font-size:15px ;
+    font-weight:600 ;
+    font-family: "Poppins" sans-serif;
+  }
+}
+#Our_Team{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  h3{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 3rem;
+  }
+  
+background-color: #F7F7F7;
+ .my_pragraf{
+
+    background-color: #5B5B5B;
+    color: white;
+  }
+  
+  .anemation{
+    
+    position: relative;
+    overflow: hidden;
+    img{
+      transition: all 1s;
+    }
+    &:hover img{
+      transform: scale(1.3);
+    }
+
+}
+.my_icoms{
+  position: absolute;
+  background-color: #FDFDFD;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  /* bottom: -px; */
+  opacity: 0;
+  transition: 0.5s;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.bg_content{
+  background-color: #5B5B5B;
+  &:hover .my_icoms {
+      cursor: pointer;
+      opacity: 1;
+      transform: rotateY(0deg) scale(1, 1);
+    }
+  color: white;
+  .my_content{
+    padding: 1rem;
+  }
+}
+}
+#Contact_Us{
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .anemation_me{
+    &:hover span{
+      background-color: #1C1C1C;
+      color: white;
+    }
+    span{
+      background-color: rgba(128, 128, 128, 0.263);
+      border-radius: 50%;
+      transition: all 0.2s linear;
+    }
+
+
+  }
+h3{
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+}
+
+.text_footer{
+  font-size: 13px;
+  font-weight: 400;
+  background-color:#1C1C1C ;
+  color:#748182 ;
+  font-family: "Poppins" sans-serif;
+}

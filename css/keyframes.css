@@ -1,0 +1,184 @@
+h1 span::after {
+  content: "";
+  animation: Headign__animation 10s 1s infinite ;
+  margin-left: 10px;
+}
+@keyframes Headign__animation {
+  0% {
+    content: "L";
+  }
+  1.123%{
+    content: "Lar";
+  }
+  2.1234%{
+    content: "Larry";
+  }
+  3.2132434%{
+    content: "Larry D";
+  }
+4.234%{
+  content: "Larry Da";
+}  
+5.2343%{
+  content: "Larry Dan";
+}
+6.324354%{
+  content: "Larry Dani";
+}
+7.1234%{
+  content: "Larry Danie";
+}
+8.11234%{
+  content: "Larry Daniel";
+}
+9.1234%{
+  content: "Larry Daniels";
+}
+/* 1234567890- */
+10.12345% {
+  content: "Larry Daniels";
+}
+11.123%{
+  content: "Larry Daniel";
+}
+12.1234%{
+  content: " Larry Danie";
+}
+13.2132434%{
+  content: " Larry Dani";
+}
+14.234%{
+content: "Larry Dan";
+}  
+15.2343%{
+content: "Larry Da";
+}
+16.324354%{
+content: "Larry D";
+}
+17.1234%{
+content: "Larry";
+}
+18.11234%{
+content: "Lar";
+}
+19.1234%{
+content: "L";
+}
+
+20.1212313245678%{
+  content: "D";
+ }
+
+21.1234234%{
+  content: "De";
+}
+23.1234234%{
+  content: "Dev";
+}
+24.1234234%{
+  content: "Dev";
+}
+25.1234234%{
+  content: "Deve";
+}
+26.1234234%{
+  content: "Devel";
+}
+27.1234234%{
+  content: "Develo";
+}
+28.1234234%{
+  content: "Develop";
+}
+29.1234234%{
+  content: "Develope";
+}
+30.1234234%{
+  content: "Developer";
+}
+
+31.1212313245678%{
+  content: " Developer";
+ }
+
+32.1234234%{
+  content: " Develope";
+}
+33.1234234%{
+  content: "Develop";
+}
+34.1234234%{
+  content: "Develo";
+}
+35.1234234%{
+  content: "Devel";
+}
+36.1234234%{
+  content: "Deve";
+}
+37.1234234%{
+  content: "Dev";
+}
+38.1234234%{
+  content: "Dev";
+}
+39.1234234%{
+  content: "De";
+}
+40.1234234%{
+  content: "D";
+}
+
+
+41.12324%{
+  content: "D";
+}
+42.12324%{
+  content: "De";
+}
+43.12324%{
+  content: "Des";
+}
+44.12324%{
+  content: "Desi";
+}
+45.12324%{
+  content: "Desig";
+}
+46.12324%{
+  content: "Design";
+}
+47.12324%{
+  content: "Desgne";
+}
+48.12324%{
+  content: "Desgner";
+}
+
+
+41.12324%{
+  content: " Desgner";
+}
+42.12324%{
+  content: " Desgne";
+}
+43.12324%{
+  content: " Design";
+}
+44.12324%{
+  content: "Desig";
+}
+45.12324%{
+  content: "Desi";
+}
+46.12324%{
+  content: "Des";
+}
+47.12324%{
+  content: "De";
+}
+48.12324%{
+  content: "D";
+}
+}
